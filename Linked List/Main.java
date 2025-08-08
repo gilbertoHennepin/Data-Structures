@@ -1,4 +1,5 @@
 // Main class to demonstrate the LinkedList functionality
+
 public class Main {
     public static void main(String[] args) {
         LinkedList waitlist = new LinkedList();
