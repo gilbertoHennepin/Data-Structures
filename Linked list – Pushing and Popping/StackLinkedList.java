@@ -53,10 +53,10 @@ public class StackLinkedList {
     public String peek() {
         // TODO 11: check if the stack is empty
         if (top == null) {
-            System.out.println("Stack is empty");
+            System.out.println("Stack is empty");   // TODO 12: print message if the stack is empty and return null
             return null;
         }
-        // TODO 12: print message if the stack is empty and return null
+    
         // TODO 13: retrieve the data from the top node
          String data = top.data;
         // TODO 14: print the top element data
@@ -92,4 +92,5 @@ public class StackLinkedList {
         System.out.println("]");
     }
 }
+
 
