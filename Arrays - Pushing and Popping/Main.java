@@ -23,7 +23,7 @@ public class Main {
                 System.out.println("Invalid input. Please enter a valid number.");
                 keyboard.nextLine(); // Clear invalid input
                 continue; // Skip the rest of the loop iteration
-            }
+            } 
             switch (choice) {
                 case 1:
                     System.out.print("Enter edit action: ");
