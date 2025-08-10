@@ -19,7 +19,7 @@ public class StackLinkedList {
         // TODO 1: set the top variable to null in the constructor to indicate an empty stack
         this.top = null;
     }
-
+ 
     // Push Operation - Add elements to the stack
     public void push(String action) {
         // TODO 2: create a new Node object with the action
@@ -92,5 +92,6 @@ public class StackLinkedList {
         System.out.println("]");
     }
 }
+
 
 
