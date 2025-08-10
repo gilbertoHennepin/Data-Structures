@@ -12,9 +12,8 @@ public class StackLinkedList {
             this.next = null; // Initialize the next node as null
         }
     }
-
     private Node top; // Top of the stack
-
+    
     // Constructor to initialize the stack
     public StackLinkedList() {
         // TODO 1: set the top variable to null in the constructor to indicate an empty stack
@@ -93,3 +92,4 @@ public class StackLinkedList {
         System.out.println("]");
     }
 }
+
