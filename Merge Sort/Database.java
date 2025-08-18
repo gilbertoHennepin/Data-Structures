@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-
-
 public class Database {
         private ArrayList registrations = new ArrayList();
 
