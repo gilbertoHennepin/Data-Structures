@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.TreeMap;
 
+
 public class Database {
     private TreeMap<String, Registration> treeMap = new TreeMap<>();
     private Registration[] registrations;
