@@ -43,7 +43,6 @@ public class Database {
         for (Registration reg : arrayList) {
             treeMap.put(reg.license, reg);
         }
-
         // Convert TreeMap values to an array
         registrations = treeMap.values().toArray(new Registration[0]);
     }
