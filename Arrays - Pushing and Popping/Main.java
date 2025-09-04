@@ -5,7 +5,7 @@ public class Main {
 
     
 
-    
+
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         TextEditorUndo undoStack = new TextEditorUndo(10); // Maximum 10 actions
